@@ -7,6 +7,7 @@ body {
   height: 100vh;
   background-color: #eee;
   font-family: "Noto Sans JP", sans-serif;
+  overflow: hidden;
 }
 
 .card {
