@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credit card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/200px-Mastercard_2019_logo.svg.png"
+        alt="Mastercard logo"
+        class="logo"
+      />
+
+      <div class="card-input card-number">
+        <input
+          type="text"
+          value="4444 3452 5678 3456"
+          onfocus="this.value=''"
+        />
+      </div>
+
+      <div class="card-flex">
+        <div class="card-input">
+          <label for="holder">Holder</label>
+          <input
+            type="text"
+            value="Nejc Pivec"
+            id="holder"
+            onfocus="this.value=''"
+          />
+        </div>
+        <div class="card-input">
+          <label for="expires">Expires</label>
+          <input
+            type="text"
+            value="08/31"
+            id="expires"
+            onfocus="this.value=''"
+          />
+        </div>
+        <div class="card-input">
+          <label for="cvc">CVC</label>
+          <input type="text" value="134" id="cvc" onfocus="this.value=''" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
